@@ -1,5 +1,3 @@
-#![feature(byte_slice_trim_ascii)]
-
 use clap::Parser;
 use duckdb::{params, Connection, DropBehavior, Error};
 use humantime::format_duration;
